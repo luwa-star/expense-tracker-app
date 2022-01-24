@@ -1,0 +1,13 @@
+.new-expense {
+    width: 67vw;
+    display: flex;
+    border-radius: 15px;
+    background: rgb(151, 125, 224);
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .new-expense {
+        width: 90vw;
+    }
+}

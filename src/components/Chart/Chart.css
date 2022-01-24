@@ -1,0 +1,17 @@
+.chart {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    background-color: #f8dfff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    width: 65vw;
+}
+
+@media screen and (max-width:600px) {
+    .chart {
+        width: 80vw;
+    }
+}

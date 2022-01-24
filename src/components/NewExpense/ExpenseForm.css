@@ -1,0 +1,83 @@
+.expense-form {
+    padding: 1rem;
+    width: 100%;
+}
+
+.new-expense--controls {
+    padding: 0.5rem 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-expense--details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-expense--control {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+}
+
+.new-expense--control label {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0.5rem;
+}
+
+.new-expense--control input {
+    width: 100%;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    outline: rgba(107, 18, 148, 0.966);
+    font-size: 16px;
+}
+
+.new-expense--control input:focus-within {
+    border: rgba(107, 18, 148, 0.966);
+}
+
+.new-expense--date {
+    width: 95% !important;
+}
+
+.new-expense--actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.new-expense--actions button {
+    background: rgba(51, 4, 73, 0.966);
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    padding: 1rem;
+    transition: 0.5s ease-in;
+}
+
+.new-expense--actions button:hover {
+    background: rgba(107, 18, 148, 0.966);
+    outline: 2px solid white;
+}
+
+@media screen and (max-width:600px) {
+    .new-expense--details {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .new-expense--control,
+    .new-expense--date {
+        width: 100% !important;
+    }
+}
