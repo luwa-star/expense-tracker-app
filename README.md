@@ -8,5 +8,5 @@ This is a simple responsive application that allows you to track expenses on a y
 
 ### Further Work
 - Add to localStorage function
-
+- improve UI
 
